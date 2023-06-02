@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+</head>
+<body>
+	<h1 style=color:purple><a href="index.html">ABC Bookstore</a></h1>
+	<nav>
+	<style>
+
+		/* Remove the default list style and padding */
+		ul 	{
+			list-style-type: none;
+			padding: 0;
+			}
+
+		/* Display the list items horizontally */
+		li 	{
+			display: inline-block;
+			}
+
+		/* Add some margin and padding to the links */
+		a 	{
+			margin: 5px;
+			padding: 5px;
+			text-decoration: none;
+			color: black;
+			}
+
+		/* Change the link color on hover */
+		a:hover {
+			color: yellow;
+			background-color: purple;
+			}
+
+	</style>
+		<!-- Add items -->
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="books.html">Books</a></li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="register.html">Register</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+	</nav>
+		<h2 style=color:purple>
+		About us
+		</h2>
+	<p style=color:gray>
+		<img alt="image_of_a_bookstore" src="https://s26162.pcdn.co/wp-content/uploads/2018/12/11-bookstores-6-three-lives-2.w710.h473.2x.jpg" height="250" width="500" align=centre><br>
+		ABC Bookstore started in 1846 when the first bookshop of the family opened in Kandy, Sri Lanka. But we celebrate 1879 as our anniversary, when we began our business on Kolamba Veediya,Kandy where we are still located today. Since then, we have grown to more than just one bookshop, with 30 bookshops across the country, serving not only individual customers but also libraries, universities, businesses and government departments. We have over 50 staff employed at ABC Bookstore Kandy.
+	</p>
+</body>
+</html>
